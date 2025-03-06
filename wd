@@ -424,8 +424,8 @@ local Toggle = Tabs.AutoFarm:CreateToggle("ToolSpeed", {
 local RockSection = Tabs.AutoFarm:CreateSection("Rock Farm")
 local selectrock = ""
 local Toggle = Tabs.AutoFarm:CreateToggle("TinyIslandRock", {
-	Title = "Farm Tiny Island Rock",
-	Description = "Farm rocks at Tiny Island",
+	Title = "Tiny Island | Durability (0)",
+	Description = "Farm rocks",
 	Default = false,
 	Callback = function(Value)
 		selectrock = "Tiny Island Rock"
@@ -448,7 +448,7 @@ local Toggle = Tabs.AutoFarm:CreateToggle("TinyIslandRock", {
 })
 
 local Toggle = Tabs.AutoFarm:CreateToggle("StarterIslandRock", {
-	Title = "Farm Starter Island Rock",
+	Title = "Starter Island | Durability (100)",
 	Description = "Farm rocks at Starter Island",
 	Default = false,
 	Callback = function(Value)
@@ -472,7 +472,7 @@ local Toggle = Tabs.AutoFarm:CreateToggle("StarterIslandRock", {
 })
 
 local Toggle = Tabs.AutoFarm:CreateToggle("LegendBeachRock", {
-	Title = "Farm Legend Beach Rock",
+	Title = "Legend Beach | Durability (5K)",
 	Description = "Farm rocks at Legend Beach",
 	Default = false,
 	Callback = function(Value)
@@ -506,7 +506,7 @@ function gettool()
 end
 
 local Toggle = Tabs.AutoFarm:CreateToggle("FrostGymRock", {
-	Title = "Farm Frost Gym Rock",
+	Title = "Frost Gym | Durability (150K)",
 	Description = "Farm rocks at Frost Gym",
 	Default = false,
 	Callback = function(Value)
@@ -530,7 +530,7 @@ local Toggle = Tabs.AutoFarm:CreateToggle("FrostGymRock", {
 })
 
 local Toggle = Tabs.AutoFarm:CreateToggle("MythicalGymRock", {
-	Title = "Farm Mythical Gym Rock",
+	Title = "Mythical Gym | Durability (400K)",
 	Description = "Farm rocks at Mythical Gym",
 	Default = false,
 	Callback = function(Value)
@@ -554,7 +554,7 @@ local Toggle = Tabs.AutoFarm:CreateToggle("MythicalGymRock", {
 })
 
 local Toggle = Tabs.AutoFarm:CreateToggle("EternalGymRock", {
-	Title = "Farm Eternal Gym Rock",
+	Title = "Eternal Gym | Durability (750K)",
 	Description = "Farm rocks at Eternal Gym",
 	Default = false,
 	Callback = function(Value)
@@ -578,7 +578,7 @@ local Toggle = Tabs.AutoFarm:CreateToggle("EternalGymRock", {
 })
 
 local Toggle = Tabs.AutoFarm:CreateToggle("LegendGymRock", {
-	Title = "Farm Legend Gym Rock",
+	Title = "Legend Gym | Durability (1M)",
 	Description = "Farm rocks at Legend Gym",
 	Default = false,
 	Callback = function(Value)
@@ -602,7 +602,7 @@ local Toggle = Tabs.AutoFarm:CreateToggle("LegendGymRock", {
 })
 
 local Toggle = Tabs.AutoFarm:CreateToggle("MuscleKingGymRock", {
-	Title = "Farm Muscle King Gym Rock",
+	Title = "Muscle King Gym | Durability (5M)",
 	Description = "Farm rocks at Muscle King Gym",
 	Default = false,
 	Callback = function(Value)
@@ -626,7 +626,7 @@ local Toggle = Tabs.AutoFarm:CreateToggle("MuscleKingGymRock", {
 })
 
 local Toggle = Tabs.AutoFarm:CreateToggle("AncientJungleRock", {
-	Title = "Farm Ancient Jungle Rock",
+	Title = "Ancient Jungle | Durability (10M)",
 	Description = "Farm rocks at Ancient Jungle",
 	Default = false,
 	Callback = function(Value)
