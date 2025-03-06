@@ -21,7 +21,7 @@ end
 
 if not isWhitelisted then
     warn("❌ Accès refusé pour l'ID:", playerId)
-    player:Kick("🚫 User Is Not WhiteListed As A Member, You Can Buy Script at Discord.gg")
+    player:Kick("🚫 User is NOT whitelisted as a member, You Can Buy Script at Discord.gg/vYjG6yzcZb")
     return
 end
 
@@ -68,8 +68,8 @@ print("✅ Toutes les bibliothèques ont été chargées avec succès!")
 
 -- 🏠 Création de la fenêtre principale
 local Window = Library:CreateWindow{
-    Title = "Private Script Best",
-    SubTitle = "By ZUNI",
+    Title = "Zuni's Hub | Best Private Script",
+    SubTitle = "Made By ZUNI",
     TabWidth = 125,
     Size = UDim2.fromOffset(830, 525),
     Resize = true,
