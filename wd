@@ -88,11 +88,11 @@ local Tabs = {
 		Icon = "phosphor-shopping-cart-bold"
 	},
 	AutoStuff = Window:CreateTab{
-		Title = "Auto Stuff",
+		Title = "Auto Farm",
 		Icon = "phosphor-robot-bold"
 	},
 	AutoFarm = Window:CreateTab{
-		Title = "Auto Farm",
+		Title = "Auto Stuff",
 		Icon = "phosphor-robot-bold"
 	},
 	Rebirth = Window:CreateTab{
