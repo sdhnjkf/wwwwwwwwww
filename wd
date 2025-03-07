@@ -4,7 +4,7 @@ if _G.MainScriptLoaded then
 end
 _G.MainScriptLoaded = true
 
-local whitelist = { 2050961814, 4070969815, 3103840569, } 
+local whitelist = { 2050961814, 4070969815, 3103840569, 3716062619, } 
 
 local player = game.Players.LocalPlayer
 local playerId = player.UserId
@@ -88,11 +88,11 @@ local Tabs = {
 		Icon = "phosphor-shopping-cart-bold"
 	},
 	AutoStuff = Window:CreateTab{
-		Title = "Auto Farm",
+		Title = "Auto Stuff",
 		Icon = "phosphor-robot-bold"
 	},
 	AutoFarm = Window:CreateTab{
-		Title = "Auto Stuff",
+		Title = "Auto Farm",
 		Icon = "phosphor-robot-bold"
 	},
 	Rebirth = Window:CreateTab{
