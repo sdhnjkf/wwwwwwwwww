@@ -21,7 +21,7 @@ end
 
 if not isWhitelisted then
     warn("❌ Accès refusé pour l'ID:", playerId)
-    player:Kick("🚫 User is NOT whitelisted, this script was only made for testing!")
+    player:Kick("🚫 User is NOT whitelisted, to get Whitelisted you need to purchase it here: https://discord.gg/vYjG6yzcZb")
     return
 end
 
