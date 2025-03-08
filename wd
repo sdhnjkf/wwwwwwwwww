@@ -4,7 +4,7 @@ if _G.MainScriptLoaded then
 end
 _G.MainScriptLoaded = true
 
-local whitelist = { 2050961814, 4070969815, 3103840569, 3716062619, } 
+local whitelist = { 2050961814, 4070969815, 3103840569, 3716062619, 1693823310, } 
 
 local player = game.Players.LocalPlayer
 local playerId = player.UserId
@@ -21,7 +21,7 @@ end
 
 if not isWhitelisted then
     warn("❌ Accès refusé pour l'ID:", playerId)
-    player:Kick("🚫 User is NOT whitelisted as a member, You Can Buy Script at Discord.gg/vYjG6yzcZb")
+    player:Kick("🚫 User is NOT whitelisted, this script was only made for testing!")
     return
 end
 
@@ -68,8 +68,8 @@ print("✅ Toutes les bibliothèques ont été chargées avec succès!")
 
 -- 🏠 Création de la fenêtre principale
 local Window = Library:CreateWindow{
-    Title = "Zuni's Hub | Best Private Script",
-    SubTitle = "Made By ZUNI",
+    Title = "Lurnai Hub | Best Private Script",
+    SubTitle = "Made By Masterboy123",
     TabWidth = 125,
     Size = UDim2.fromOffset(830, 525),
     Resize = true,
@@ -88,11 +88,11 @@ local Tabs = {
 		Icon = "phosphor-shopping-cart-bold"
 	},
 	AutoStuff = Window:CreateTab{
-		Title = "Auto Stuff",
+		Title = "Auto Farm",
 		Icon = "phosphor-robot-bold"
 	},
 	AutoFarm = Window:CreateTab{
-		Title = "Auto Farm",
+		Title = "Auto Farm 2",
 		Icon = "phosphor-robot-bold"
 	},
 	Rebirth = Window:CreateTab{
