@@ -11,22 +11,6 @@ local playerId = player.UserId
 
 print("👤 Player ID détecté:", playerId)
 
-local isWhitelisted = false
-for _, id in ipairs(whitelist) do
-    if id == playerId then
-        isWhitelisted = true
-        break
-    end
-end
-
-if not isWhitelisted then
-    warn("❌ Accès refusé pour l'ID:", playerId)
-    player:Kick("🚫 User is NOT whitelisted! This script is private!")
-    return
-end
-
-print("✅ ID " .. playerId .. " autorisé. Chargement du script...")
-
 local function safeLoad(url, name)
     print("🔄 Chargement: " .. name)
     local success, result = pcall(function()
