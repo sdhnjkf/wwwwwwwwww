@@ -52,7 +52,7 @@ print("✅ Toutes les bibliothèques ont été chargées avec succès!")
 
 -- 🏠 Création de la fenêtre principale
 local Window = Library:CreateWindow{
-    Title = "Nexora | Best Free Script",
+    Title = ".gg/822Hm8t4QS | Best Free Script",
     SubTitle = "Made By Nexora Scripts",
     TabWidth = 125,
     Size = UDim2.fromOffset(830, 525),
