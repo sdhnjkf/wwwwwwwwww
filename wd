@@ -52,8 +52,8 @@ print("✅ Toutes les bibliothèques ont été chargées avec succès!")
 
 -- 🏠 Création de la fenêtre principale
 local Window = Library:CreateWindow{
-    Title = "ZUNI Hub | Best Private Script",
-    SubTitle = "Made By ZUNI",
+    Title = "Nexora | Best Free Script",
+    SubTitle = "Made By Nexora Scripts",
     TabWidth = 125,
     Size = UDim2.fromOffset(830, 525),
     Resize = true,
